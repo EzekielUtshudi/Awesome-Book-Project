@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  border: lightsteelblue;
+  width: 80%;
+  margin: 20px 0;
+  background-color: white;
+  height: 40px;
+}
+
+input[type="button"] {
+  background-color: lightskyblue;
+  width: 80%;
+  height: 40px;
+  border: none;
+  margin: 20px 0;
+  color: white;
+  font-size: 16px;
+}
+
+.table {
+  background-color: aliceblue;
+  width: 80%;
+  margin-left: 10%;
+}
+
+tr {
+  height: 30px;
+  background-color: antiquewhite;
+}
+
+button {
+  background-color: crimson;
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+}
