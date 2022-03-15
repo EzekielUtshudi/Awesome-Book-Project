@@ -53,9 +53,15 @@ set up on github pages
 
 👤 **Ezekiel Utshudi**
 
+👤 **Sangwa Didier**
+
 - GitHub: [@EzekielUtshudi](https://github.com/EzekielUtshudi)
 - Twitter: [@UtshudiEzekiel](https://twitter.com/UtshudiEzekiel)
 - LinkedIn: [@UtshudiEzekiel](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
+
+- GitHub: [@SangwaDidier](https://github.com/sangwa7)
+- Twitter: [@DidierSangwa](https://twitter.com/Didiersangwa)
+- LinkedIn: [@DidierSangwa](https://www.linkedin.com/in/Sanwa-didier/)
 
 ## 🤝 Contributing
 
