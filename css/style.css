@@ -11,8 +11,9 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 30px 0;
 }
-.book-span{
-  color: blue;
+
+.book-span {
+  color: rgb(3, 3, 114);
 }
 
 .form-section {
