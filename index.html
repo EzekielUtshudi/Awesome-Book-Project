@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Book Project</title>
-    <link rel="stylesheet" href="./css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Awesome Books</title>
 </head>
 <body>
-    
-
-    <div class="container">
-        <hr>
+  
+	      <hr>
         <h1>Awesome <span class="book">Books</span> Library</h1>
-      <section class="book-list"></section>
         <hr>
-      <form>
-        <input type="text" id="title" placeholder="Title" />
-        <input type="text" id="author" placeholder="author" />
-        <input type="submit" id="submit" value="Add Book" />
-      </form>
-    </div>
-        <hr>
-    <script src="app.js"></script>
+        <table>
+			<tbody class="books"></tbody>
+		</table>
+  
+	<div class="form-section">
+		<input type="text" id="title" name="title" placeholder="Title">
+		<input type="text" id="author" name="author" placeholder="Author">
+		<button type="button" class="add-book-btn">Add</button>
+	</div>
+    <hr>
+
+	<!-- <script src="index.js"></script> -->
+  <script src="classImpl.js"></script>
 </body>
 </html>
