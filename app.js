@@ -29,17 +29,17 @@ window.addEventListener('DOMContentLoaded', () => {
     deleteBook();
   }
   function deleteBook() {
-    [...document.querySelectorAll('.deletebtn')].forEach((element) => {
+    document.querySelectorAll('.deletebtn').forEach((element) => {
       const elementIndex = parseInt(element.getAttribute('data'), 10);
       element.addEventListener('click', () => {
         bookObjects.splice(elementIndex, 1);
         localStorage.setItem('book-collection', JSON.stringify(bookObjects));
-        createBook();
+        // createBook();
+        window.location.reload();
       });
     });
   }
 
-  /* eslint */
   createBook();
 
   function addBook(bookTitle, bookAuthor) {
