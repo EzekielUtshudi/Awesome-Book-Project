@@ -1,0 +1,209 @@
+.container {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 1rem;
+  border-radius: 0.4rem;
+}
+
+header .links {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+header .links .link {
+  cursor: pointer;
+  padding: 0.5em 1em;
+}
+
+header .links .link + .link {
+  border-left: 1px solid black;
+}
+
+header .links .link.selected {
+  color: darkcyan;
+}
+
+.date {
+  display: block;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.books {
+  background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 0.4em;
+  margin: 2rem;
+}
+
+.books .no-books {
+  background-color: rgb(236, 162, 162);
+  display: block;
+  padding: 1em;
+  color: red;
+  font-weight: 600;
+  text-align: center;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4em 0;
+  color: blue;
+}
+
+.book-span {
+  color: rgb(3, 3, 114);
+}
+
+.book:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.book button {
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  font-weight: 600;
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+.book p {
+  margin: 0 1em;
+}
+
+.bookInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: flex-end;
+  width: 20rem;
+  margin: 4rem auto;
+}
+
+.bookInput input {
+  width: 100%;
+  padding: 0.5em;
+  border: 2px solid black;
+  border: lightsteelblue;
+  background-color: white;
+  height: 40px;
+}
+
+.add-book-btn {
+  background-color: lightskyblue;
+  width: 60%;
+  height: 40px;
+  border: none;
+  margin: 20px 0;
+  color: white;
+  font-size: 16px;
+}
+
+.add-book-btn:hover {
+  background-color: white;
+  border: 2px solid lightskyblue;
+  color: lightskyblue;
+  transition: 0.3s ease-in;
+  transition: 0.2s ease-out;
+}
+
+hr {
+  margin: 20px auto;
+  width: 10rem;
+}
+
+.contact {
+  padding-bottom: 4rem;
+  width: 35rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  width: fit-content;
+  margin-bottom: 2px;
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  border: 2px solid rgb(122, 119, 119);
+  border-radius: 0.4rem;
+  text-align: center;
+  background-color: bisque;
+}
+
+section:not(#add-books) {
+  display: none;
+}
+
+.nav-bar {
+  background-color: rgb(245, 197, 139);
+  width: 100%;
+  margin: 20px 0;
+}
+
+.nav-bar .nav-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+}
+
+.nav-bar .nav-container .nav-title {
+  width: 50%;
+  font-size: 18px;
+}
+
+.nav-bar .nav-container .nav-menu {
+  width: 50%;
+  margin-top: 1%;
+}
+
+.nav-bar .nav-container .nav-menu ul li {
+  display: inline;
+  padding: 0 60px;
+  font-size: 18px;
+}
