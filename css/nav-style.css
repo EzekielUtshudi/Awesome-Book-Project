@@ -66,11 +66,12 @@ h2 {
 }
 
 .books .no-books {
-  background-color: rgb(83, 83, 83);
+  background-color: rgb(236, 162, 162);
   display: block;
   padding: 1em;
-  color: white;
+  color: red;
   font-weight: 600;
+  text-align: center;
 }
 
 .book {
@@ -79,6 +80,10 @@ h2 {
   justify-content: space-between;
   padding: 0.4em 0;
   color: blue;
+}
+
+.book-span {
+  color: rgb(3, 3, 114);
 }
 
 .book:nth-child(odd) {
@@ -118,7 +123,7 @@ h2 {
 
 .add-book-btn {
   padding: 0.5em 1em;
-  border: 2px solid gray;
+  border: 2px solid rgb(80, 166, 206);
   cursor: pointer;
   border-radius: 0.2em;
 }
@@ -132,6 +137,8 @@ hr {
   padding-bottom: 4rem;
   width: 35rem;
   margin: 0 auto;
+  text-align: center;
+  
 }
 
 .contact h2 {
@@ -141,11 +148,8 @@ hr {
 .contact p {
   width: fit-content;
   margin-bottom: 2px;
-}
-
-.contact ul {
-  width: fit-content;
-  margin: 0.5rem 2rem;
+  text-align: center;
+  align-items: center;
 }
 
 footer {
@@ -153,6 +157,8 @@ footer {
   padding: 1rem;
   border: 2px solid black;
   border-radius: 0.4rem;
+  text-align: center;
+  background-color: bisque;
 }
 
 section:not(#add-books) {
@@ -160,19 +166,19 @@ section:not(#add-books) {
 }
 
 .nav-bar {
-  background-color: rgb(245, 197, 139);
-  width: 60%;
+  background-color: bisque;
+  width: 100%;
   margin: 20px 0;
 }
 
 .nav-bar .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 10px 30px;
 }
 
 .nav-bar .container .nav-title {
-  width: 50%;
+  width: 100%;
   font-size: 18px;
 }
 
