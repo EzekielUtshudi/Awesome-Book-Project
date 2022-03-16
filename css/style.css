@@ -76,3 +76,30 @@ tr button {
   float: right;
   background-color: crimson;
 }
+
+.nav-bar {
+  background-color: rgb(245, 197, 139);
+  width: 60%;
+  margin: 20px 0;
+}
+
+.nav-bar .container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+}
+
+.nav-bar .container .nav-title {
+  width: 50%;
+  font-size: 18px;
+}
+
+.nav-bar .container .nav-menu {
+  width: 50%;
+}
+
+.nav-bar .container .nav-menu ul li {
+  display: inline;
+  padding: 0 30px;
+  font-size: 18px;
+}

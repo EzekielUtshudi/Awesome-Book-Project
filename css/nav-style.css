@@ -1,0 +1,187 @@
+.container {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+}
+
+header .links {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+header .links .link {
+  cursor: pointer;
+  padding: 0.5em 1em;
+}
+
+header .links .link + .link {
+  border-left: 1px solid black;
+}
+
+header .links .link.selected {
+  color: darkcyan;
+}
+
+.date {
+  display: block;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.books {
+  background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 0.4em;
+  margin: 2rem;
+}
+
+.books .no-books {
+  background-color: rgb(83, 83, 83);
+  display: block;
+  padding: 1em;
+  color: white;
+  font-weight: 600;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4em 0;
+  color: blue;
+}
+
+.book:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.book button {
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  font-weight: 600;
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+.book p {
+  margin: 0 1em;
+}
+
+.bookInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: flex-end;
+  width: 20rem;
+  margin: 4rem auto;
+}
+
+.bookInput input {
+  width: 100%;
+  padding: 0.5em;
+  border: 2px solid black;
+  border-radius: 0.2em;
+}
+
+.add-book-btn {
+  padding: 0.5em 1em;
+  border: 2px solid gray;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+hr {
+  margin: 20px auto;
+  width: 10rem;
+}
+
+.contact {
+  padding-bottom: 4rem;
+  width: 35rem;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  width: fit-content;
+  margin-bottom: 2px;
+}
+
+.contact ul {
+  width: fit-content;
+  margin: 0.5rem 2rem;
+}
+
+footer {
+  margin: 0.5rem 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+}
+
+section:not(#add-books) {
+  display: none;
+}
+
+.nav-bar {
+  background-color: rgb(245, 197, 139);
+  width: 60%;
+  margin: 20px 0;
+}
+
+.nav-bar .container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+}
+
+.nav-bar .container .nav-title {
+  width: 50%;
+  font-size: 18px;
+}
+
+.nav-bar .container .nav-menu {
+  width: 100%;
+}
+
+.nav-bar .container .nav-menu ul li {
+  display: inline;
+  padding: 0 30px;
+  font-size: 18px;
+}

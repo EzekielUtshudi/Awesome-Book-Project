@@ -4,26 +4,61 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nav-style.css">
+	<script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
 	<title>Awesome Books</title>
 </head>
 <body>
-  
-	      <hr>
-        <h1>Awesome <span class="book-span">Books</span> Library</h1>
-        <hr>
-        <table>
-			<tbody class="books"></tbody>
-		</table>
-  
-	<div class="form-section">
-		<input type="text" id="title" name="title" placeholder="Title">
-		<input type="text" id="author" name="author" placeholder="Author">
-		<button type="button" class="add-book-btn">Add</button>
-	</div>
-    <hr>
 
-	<!-- <script src="index.js"></script> -->
-  <script src="classImpl.js"></script>
+	<header>
+		<div class="nav-bar">
+			<div class="nav-container">
+			<div class="nav-title">
+				<h1>Awesome Books</h1>
+			</div>
+			<div class="nav-menu">
+				<ul class="links">
+					<li class="link" onclick="displayBookList(this)">List</li>
+					<li class="link selected" onclick="displayAddBooks(this)">Add new</li>
+					<li class="link" onclick="displayContact(this)">Contact</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+
+	</header>
+	<span class="date"></span>
+	<main>
+		<section id="book-list">
+			<h1>All Awesome books</h1>
+			<div class="books">
+				<span class="no-books">You don't have any Books added</span>
+			</div>
+			<hr>
+		</section>
+		<section id="add-books">
+			<h2>Add a new Book</h2>
+			<div class="bookInput">
+				<input type="text" id="title" name="title" placeholder="Title">
+				<input type="text" id="author" name="author" placeholder="Author">
+				<button type="button" class="add-book-btn">Add</button>
+			</div>
+		</section>
+    <section id="contact-info" class="contact">
+			<h2>Contact Information</h2>
+			<p>Do you have any questions or you just want to say "Hello"?</p>
+			<p>You can reach out to us!</p>
+			<ul>
+				<li>Contact emails : ezekielutshudi@gmail.com & sangwadidier@gmail.com</li>
+				<li>Our address @ Microverse</li>
+			</ul>
+		</section>
+		<footer>
+			<p>Copyright 2022</p>
+		</footer>
+	</main>
+
+	<script src="index.js"></script>
+	<script src="navigation.js"></script>
 </body>
 </html>
