@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;;
+  background-color: antiquewhite;
 }
 
 .container {
@@ -118,7 +118,6 @@ h2 {
   width: 100%;
   padding: 0.5em;
   border: 2px solid black;
-  border-radius: 0.2em;
   border: lightsteelblue;
   background-color: white;
   height: 40px;
